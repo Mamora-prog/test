@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Анкета</title>
+<style>
+   body {
+    background: #6e767d
+
+   }
+  </style>
+</head>
+<body>
+<div class="container">
+
+        <div class="modal-content rounded-4 shadow" bis_skin_checked="1">
+      <div class="modal-header p-5 pb-4 border-bottom-0" bis_skin_checked="1">
+        <h2 class="fw-bold mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Анкета</font></font></h2>
+      </div>
+
+
+      <div class="modal-body p-5 pt-0" bis_skin_checked="1">
+        <form method="post">
+          <div class="form-floating mb-3" bis_skin_checked="1">
+            <input type="name" class="form-control rounded-3"name = "name" id="name" placeholder="Громов">
+            <label for="name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Имя</font></font></label>
+          </div>
+          <div class="form-floating mb-3" bis_skin_checked="1">
+            <input type="surname" class="form-control rounded-3"name = "surname" id="surname" placeholder="Любовь">
+            <label for="surname"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Фамилия</font></font></label>
+          </div>
+          <div class="form-floating mb-3" bis_skin_checked="1">
+            <input type="surname2" class="form-control rounded-3" name = "surname2"id="surname2" placeholder="Тимурович">
+            <label for="surname2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Очество</font></font></label>
+          </div>
+            <div class="form-floating mb-3" bis_skin_checked="1">
+            <input type="work" class="form-control rounded-3" name = "birthday" id="birthday" placeholder="03.04.1932">
+            <label for="birthday"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Дата рождения</font></font></label>
+          </div>
+            <div class="form-floating mb-3" bis_skin_checked="1">
+            <input type="work" class="form-control rounded-3" name = "work1" id="work1" placeholder="...">
+            <label for="work1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Последнее 1 место работы</font></font></label>
+          </div>
+             <div class="form-floating mb-3" bis_skin_checked="1">
+            <input type="work" class="form-control rounded-3" name = "work2" id="work2" placeholder="...">
+            <label for="work2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Последнее 2 место работы</font></font></label>
+          </div>
+             <div class="form-floating mb-3" bis_skin_checked="1">
+            <input type="work" class="form-control rounded-3" name = "work3" id="work3" placeholder="...">
+            <label for="work3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Последнее 3 место работы</font></font></label>
+          </div>
+            <div class="form-floating mb-3" bis_skin_checked="1">
+            <input type="phone" class="form-control rounded-3" name = "phone" id="phone" placeholder="Телефон / Электронная почта">
+            <label for="phone"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Обратная связь</font></font></label>
+          </div>
+          <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отправить</font></font></button>
+          <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Нажимая отправить, вы соглашаетесь с условиями использования.</font></font></small>
+
+
+          </font></font></button>
+        </form>
+      </div>
+            </div>
+
+
+</body>
+</html>
